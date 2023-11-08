@@ -51,6 +51,95 @@ transition: 0s;
 }
 
 
+
+.content{
+    padding:5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 10%;
+}
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+.Dashboard{
+    padding: 20px;
+    background: #01011d;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin: 15px;
+    width: 250px;
+}
+.Budget{
+    padding: 20px;
+    background: #01011d;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin: 15px;
+    width: 250px;
+}
+.Checkbooks{
+    padding: 20px;
+    background: #01011d;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin: 15px;
+    width: 250px;
+}
+
+.Money{
+    padding: 20px;
+    background: #01011d;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    margin: 15px;
+    width: 250px;
+
+}
+
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background:transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    align-items: flex-end;
+    
+}
+span {
+    background: #a9aaaa;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:-1;
+    transition: 0s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+
+/**
 .content{
     color: #fff;
     padding: 20px;
@@ -98,6 +187,7 @@ transition: 0s;
     border: 2px solid #fff;
     margin: 15px;
     width: 250px;
+
 }
 
 
@@ -116,7 +206,7 @@ button{
     position: relative;
     overflow: hidden;
     bottom: 5%;
-    
+    align-items: flex-end;
     
 }
 span {
